@@ -1,6 +1,7 @@
 package ejercicioDado;
 
-
+import javax.swing.JOptionPane;
+import javax.swing.JTextArea;
 
 public class DadoAleatorio {
 	
@@ -39,6 +40,17 @@ public class DadoAleatorio {
 				break;
 			}
 		}
+		
+		JTextArea salida = new JTextArea();
+		
+		salida.setText("Cara\tFrecuencia\n1\t" + frecuencia1 + 
+				"\n2\t" + frecuencia2 + "\n3\t" + frecuencia3 + 
+				"\n4\t" + frecuencia4 + "\n5\t" + frecuencia5 + 
+				"\n6\t" + frecuencia6);
+		
+		JOptionPane.showMessageDialog(null, salida, "Tiro de un dado 6000 veces", JOptionPane.INFORMATION_MESSAGE);
+		
+		System.exit(0);
 		
 	}
 	
