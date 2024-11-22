@@ -52,9 +52,9 @@ public class DadoAleatorio {
 		
 		System.exit(0);
 		
-	}
+	} //fin del main
 	
 	
 	
 
-}
+} fin de la clase DadoAleatorio
