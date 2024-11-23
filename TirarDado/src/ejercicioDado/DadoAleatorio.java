@@ -57,4 +57,4 @@ public class DadoAleatorio {
 	
 	
 
-} fin de la clase DadoAleatorio
+} //fin de la clase DadoAleatorio
